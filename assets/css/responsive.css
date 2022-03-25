@@ -1,0 +1,158 @@
+@media (max-width: 575.98px) {
+    .hero-bg img {
+        height: 100%;
+        width: 100%;
+    }
+    /* .hero-about {
+        height: 100vh;
+    } */
+    .square {
+    opacity: .9;
+    z-index: -11;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    position: absolute;
+    background: url('../img/home/MYLLASH\ WEBSITEHOMEPAGE.jpg') no-repeat center center;
+    background-size: cover;
+    }
+    .square-project-detail {
+        position: absolute;
+        background: url('../img/mobile/MYLLASH\ WEBSITEABOUT\ US\ HERO\ MOBILE.jpg') no-repeat center center;
+        background-size: cover;
+    }
+    .web-development-hero {
+        position: absolute;
+        background: url('../img/mobile/MYLLASH\ WEBSITEWEB\ DEVELOPMENT\ HERO\ MOBILE.jpg') no-repeat center center;
+        background-size: cover;
+    }
+    .digital-marketing-hero {
+        position: absolute;
+        background: url('../img/mobile/MYLLASH\ WEBSITEDIGITAL\ MARKETING\ HERO\ MOBILE.jpg') no-repeat center center;
+        background-size: cover;
+    }
+    .cloud-computing-hero {
+        position: absolute;
+        background: url('../img/mobile/MYLLASH\ WEBSITECLOUD\ COMPUTING\ HERO\ MOBILE.jpg') no-repeat center center;
+        background-size: cover;
+    }
+    .digital-title {
+        color: #3399cc;
+        font-size: 50px;
+        margin: 30px;
+        font-weight: 900;
+        font-family: 'Poppins', sans-serif;
+    }
+    .address-menu {
+        display: none;
+    }
+    /* a.menu-link {.square {
+    opacity: .9;
+    z-index: -11;
+    height: 100%;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    background: url('../img/home/MYLLASH\ WEBSITEHOMEPAGE.jpg') no-repeat center center;
+    background-size: cover;
+    } */
+    a.menu-link {
+        font-size: 30px;
+    }
+
+    .service-item {
+        width: 100% !important;
+    }
+
+    .about-text-bg {
+        display: none;
+    }
+
+    .left-bg {
+        display: none
+    }
+
+    .right-bg {
+        display: none;
+    }
+
+    .toggle-btn::before {
+        display: none;
+    }
+    .hero-title h1 {
+        font-size: 40px;
+    }
+    .links::before {
+        display: none;
+    }
+    .blog-text p {
+        display: none;
+    }
+    .hero-title {
+        padding: 0 30px;
+    }
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 575.98px) and (max-width: 767.98px) {
+    .address-menu {
+        display: none;
+    }
+    .links::before {
+        display: none;
+    }
+    .left-bg {
+        display: none
+    }
+
+    .right-bg {
+        display: none;
+    }
+    .toggle-btn::before {
+        display: none;
+    }
+    .hero-title h1 {
+        font-size: 40px;
+    }
+    .blog-text p {
+        display: none;
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+  
+
+    .left-bg {
+        display: none
+    }
+
+    .right-bg {
+        display: none;
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .left-bg {
+        display: none
+    }
+
+    .right-bg {
+        display: none;
+    }
+
+}
+
+/* // Large devices (desktops, less than 1200px) RETINA */
+@media (min-width: 1200px) and (max-width: 4000px) {
+    .work-item {
+        height: 350px;
+    }
+
+    .mt-60-lg {
+        margin-top: 60px !important;
+    }
+
+
+}
